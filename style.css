@@ -1,0 +1,11 @@
+body{
+    background-color:whitesmoke;
+}
+.abc{
+    margin:5px;
+    border:2px solid;
+    padding:4px;
+    border-radius: 1px;
+    border-color:black;
+    background-color: aqua;
+}
