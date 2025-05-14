@@ -1,6 +1,5 @@
 
 const abc="software";
-
 let name="s";
 const roll=2;
 
@@ -30,12 +29,6 @@ function div(){
     console.log(a/b);
 }
 div()
-
-
-function addition(c,d){
-    console.log(c+d);
-}
-addition(7,9);
 
 
 
