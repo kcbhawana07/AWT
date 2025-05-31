@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1 mame="title">
+        Hello Word!
+    </h1>
+    <h1 class="software"></h1> 
+    <p text="typing"></p>
+    <img src="" alt="">
+    <div>
+        Username:<br>
+    <input id="username" class="name" placeholder="write your name"></input>
+        </div>
+        <button>Submit</button><br> 
+        <h1 name="title">Student Registration</h1>
+<form id="studentform" method=""POST>
+<label for="name">Name</label><br>
+    <input type="name" id="name"><br>
+    Class:<br>
+    <input type="text" id="class"><br>
+    Email:<br>
+    <input type="email" id="email">
+    <button type="Submit">Submit</button>
+</form>
+<script>
+  
+
+
+
+
+    function handleSubmit(event){
+        event.preventDefault();
+
+    const Name=document.getElementById("name");
+    const Class=document.getElementById("class");
+    const Email=document.getElementById("email");
+
+    const newStudent={
+        name:Name.value,
+        class:Class.value,
+        email:Email.value
+    }
+    console.log(newStudent);
+    }
+     
+     
+     studentform.addEventListener("submit",handleSubmit);
+</script>
+
+
+</body>
+</html>
